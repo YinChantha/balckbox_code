@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "/images/icon19.png",
+         "38": "/images/icon38.png"
+      },
+      "default_title": "Blackbox"
+   },
+   "commands": {
+      "take-screenshot": {
+         "description": "Take Screenshot",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "description": "Blackbox",
+   "homepage_url": "https://chrome.google.com/webstore/detail/blackbox/mcgbeeipkmelnpldkobichboakdfaeon",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArTPnVsmAvoOtSh/Q2gffR9tBzqHU9T3fdOQweLJ5kv0waZ6QHB9INnzLQ/8DvpLYYs17dBgEZaojOsmUN+jcL3zBRnmq7c+cfUENh+l8uMJbZLgWLUJ/RQLfUi1YnpSJNjSZd4wfKlfyuFBP1ia7hlGffDMOYYVoQlEA4jLW9lTBT/S4Md1sYSrF56Qnnoo3vYBUCEUhRGYgf+HfWy1eKAIUXTCg7KbQ/7aqBPNzORN+0nvVLNtnVZC/fi+vmHtW31c94T4s5IxIHW+12Ju+AzDn8748VxAPILoMDd8hAYsR/MzKT5omEd6lwrPfPovwSAgl87YRmK1KRMmoKFIzSwIDAQAB",
+   "manifest_version": 2,
+   "name": "Blackbox",
+   "omnibox": {
+      "keyword": "bx"
+   },
+   "options_page": "/content/options.html",
+   "permissions": [ "storage", "activeTab", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.1",
+   "web_accessible_resources": [ "/images/Jcrop.gif", "/images/pixel.png" ]
+}
